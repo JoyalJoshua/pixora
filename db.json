@@ -77,6 +77,19 @@
       "following": [],
       "savedPosts": [],
       "isOnline": false
+    },
+    {
+      "id": "user-1779465258435",
+      "username": "joyal",
+      "name": "Joshua",
+      "email": "joyaljoshuajj25@gmail.com",
+      "password": "Ot~fqOtxmzfpixora_salt!",
+      "bio": "Hi! I am new to Pixora. Tech enthusiast.",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Joyal",
+      "followers": [],
+      "following": [],
+      "savedPosts": [],
+      "isOnline": true
     }
   ],
   "posts": [
@@ -259,5 +272,17 @@
     }
   ],
   "messages": [],
-  "notifications": []
+  "notifications": [
+    {
+      "id": "notif-1779465449536",
+      "userId": "user-sarah",
+      "senderId": "user-1779465258435",
+      "senderUsername": "joyal",
+      "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Joyal",
+      "type": "follow",
+      "text": "started following you.",
+      "createdAt": "2026-05-22T15:57:29.535Z",
+      "isRead": false
+    }
+  ]
 }
