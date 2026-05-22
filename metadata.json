@@ -1,0 +1,11 @@
+{
+  "name": "Pixora",
+  "description": "Pixora is a premium, futuristic dark-themed social media platform inspired by Instagram. It features real-time dynamic stories with animated loaders, immersive vertical media reels, an Explore grid with search, a live direct messaging system with typing status, and rich user profiles.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

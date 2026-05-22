@@ -1,0 +1,263 @@
+{
+  "users": [
+    {
+      "id": "user-sarah",
+      "username": "sarah_velvet",
+      "name": "Sarah Jenkins",
+      "email": "sarah@pixora.io",
+      "bio": "Visual Artist & Creative Director • Tokyo | SF 🌌 Creating worlds through lens and light.",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&q=80",
+      "followers": [
+        "user-elena",
+        "user-alex"
+      ],
+      "following": [
+        "user-alex",
+        "user-maya"
+      ],
+      "savedPosts": []
+    },
+    {
+      "id": "user-alex",
+      "username": "alex_neon",
+      "name": "Alex Rivera",
+      "email": "alex@pixora.io",
+      "bio": "Cyberpunk Cinematographer 📸 Capturing the electricity of nocturnal metropolitan lives.",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&q=80",
+      "followers": [
+        "user-sarah",
+        "user-maya"
+      ],
+      "following": [
+        "user-sarah",
+        "user-elena"
+      ],
+      "savedPosts": []
+    },
+    {
+      "id": "user-elena",
+      "username": "elena_mindset",
+      "name": "Elena Rostova",
+      "email": "elena@pixora.io",
+      "bio": "Minimalist architect • UI Designer 📐 Living inside grid structures and glass gradients.",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&q=80",
+      "followers": [
+        "user-alex"
+      ],
+      "following": [
+        "user-sarah"
+      ],
+      "savedPosts": []
+    },
+    {
+      "id": "user-maya",
+      "username": "maya_sound",
+      "name": "Maya Chen",
+      "email": "maya@pixora.io",
+      "bio": "Modular Synthesizer Enthusiast 🎹 Making raw frequencies sound like celestial stories.",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&h=150&fit=crop&q=80",
+      "followers": [
+        "user-sarah"
+      ],
+      "following": [
+        "user-alex",
+        "user-elena"
+      ],
+      "savedPosts": []
+    },
+    {
+      "id": "user-1779463410062",
+      "username": "testuser",
+      "name": "Test User",
+      "email": "test@pixora.io",
+      "password": "ufxx|twi678pixora_salt!",
+      "bio": "Hi! I am new to Pixora. Tech enthusiast.",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=testuser",
+      "followers": [],
+      "following": [],
+      "savedPosts": [],
+      "isOnline": false
+    }
+  ],
+  "posts": [
+    {
+      "id": "post-1",
+      "userId": "user-alex",
+      "username": "alex_neon",
+      "userAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=800&q=80",
+      "caption": "Midnight rain over Shinjuku. There is a peaceful rhythm underneath the absolute chaos of neon lights. 🌧️⚡️ #shinjuku #tokyonight #cyberpunk",
+      "likes": [
+        "user-sarah",
+        "user-elena"
+      ],
+      "location": "Shinjuku, Tokyo",
+      "createdAt": "2026-05-22T13:22:24.320Z",
+      "comments": [
+        {
+          "id": "comm-1",
+          "postId": "post-1",
+          "userId": "user-sarah",
+          "username": "sarah_velvet",
+          "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&q=80",
+          "text": "The reflection on that asphalt is magnificent, Alex! The color balance is amazing.",
+          "createdAt": "2026-05-22T13:52:24.321Z"
+        },
+        {
+          "id": "comm-2",
+          "postId": "post-1",
+          "userId": "user-elena",
+          "username": "elena_mindset",
+          "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&q=80",
+          "text": "Incredible depth of field. This looks like a frame from a cyberpunk film preset.",
+          "createdAt": "2026-05-22T14:22:24.321Z"
+        }
+      ]
+    },
+    {
+      "id": "post-2",
+      "userId": "user-sarah",
+      "username": "sarah_velvet",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&q=80",
+      "caption": "Reconstructed my visual studio. Infusing modular synths, analog retro gears, and vintage processors. Cozy tech vibes are official! 🎚️💿🔊",
+      "likes": [
+        "user-alex",
+        "user-maya",
+        "user-elena"
+      ],
+      "location": "Studio Velvet, SF",
+      "createdAt": "2026-05-22T09:22:24.321Z",
+      "comments": [
+        {
+          "id": "comm-3",
+          "postId": "post-2",
+          "userId": "user-maya",
+          "username": "maya_sound",
+          "userAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&h=150&fit=crop&q=80",
+          "text": "Oh wow, that analog patchbay is beautiful! We need to jam together asap.",
+          "createdAt": "2026-05-22T09:52:24.321Z"
+        }
+      ]
+    },
+    {
+      "id": "post-3",
+      "userId": "user-elena",
+      "username": "elena_mindset",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800&q=80",
+      "caption": "Finding symmetry in the most mundane structures. Today's coffee setup is incredibly geometrical. 📐☕️🤖 #details #minimalism #architecture",
+      "likes": [
+        "user-sarah"
+      ],
+      "location": "The Glass House Cafe",
+      "createdAt": "2026-05-21T15:22:24.321Z",
+      "comments": []
+    },
+    {
+      "id": "post-4",
+      "userId": "user-maya",
+      "username": "maya_sound",
+      "userAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&h=150&fit=crop&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80",
+      "caption": "Late night coding session. Compiling audio synthesize routines directly into browser WebAssembly. Soundscape is coming... 🎧🚀📟",
+      "likes": [
+        "user-alex",
+        "user-sarah"
+      ],
+      "location": "Synthesizer Basement",
+      "createdAt": "2026-05-20T15:22:24.321Z",
+      "comments": []
+    }
+  ],
+  "reels": [
+    {
+      "id": "reel-1",
+      "userId": "user-alex",
+      "username": "alex_neon",
+      "userAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&q=80",
+      "videoUrl": "https://images.unsplash.com/photo-1545235621-3fa438908226?w=600&q=80",
+      "caption": "Cruising down Tokyo highways at 3:00 AM. Ambient lofi beats looping. 🌃🚙💨 #nightdrive #tokyolofi #aesthetic",
+      "likes": [
+        "user-sarah",
+        "user-maya"
+      ],
+      "commentsCount": 24,
+      "audioTrack": "Lofi Chills • Alex Rivera Original Audio",
+      "views": 12400,
+      "shares": 489
+    },
+    {
+      "id": "reel-2",
+      "userId": "user-maya",
+      "username": "maya_sound",
+      "userAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&h=150&fit=crop&q=80",
+      "videoUrl": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=600&q=80",
+      "caption": "Raw Eurorack patches starting to generate beautiful melodic cascades! Sound up! 🎹🎚️🔊✨ #modular #synth #eurorack #ambient",
+      "likes": [
+        "user-sarah",
+        "user-alex",
+        "user-elena"
+      ],
+      "commentsCount": 89,
+      "audioTrack": "Celestial Echoes • maya_sound Studio Solo",
+      "views": 31200,
+      "shares": 1102
+    },
+    {
+      "id": "reel-3",
+      "userId": "user-sarah",
+      "username": "sarah_velvet",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&q=80",
+      "videoUrl": "https://images.unsplash.com/photo-1539628399213-d6aa89c93074?w=600&q=80",
+      "caption": "A quick workflow of my latest generative glass prism design. Playing with light diffraction is therapeutic! 💎🎨📐 #digitalart #blender3d #process",
+      "likes": [
+        "user-elena"
+      ],
+      "commentsCount": 15,
+      "audioTrack": "Wavelengths • Luminous Tracks",
+      "views": 8900,
+      "shares": 145
+    }
+  ],
+  "stories": [
+    {
+      "id": "story-1",
+      "userId": "user-sarah",
+      "username": "sarah_velvet",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1545235621-3fa438908226?w=600&q=80",
+      "createdAt": "2026-05-22T15:22:24.321Z",
+      "expiresAt": "2026-05-23T15:22:24.321Z"
+    },
+    {
+      "id": "story-2",
+      "userId": "user-alex",
+      "username": "alex_neon",
+      "userAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
+      "createdAt": "2026-05-22T15:22:24.321Z",
+      "expiresAt": "2026-05-23T15:22:24.321Z"
+    },
+    {
+      "id": "story-3",
+      "userId": "user-elena",
+      "username": "elena_mindset",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1539628399213-d6aa89c93074?w=600&q=80",
+      "createdAt": "2026-05-22T15:22:24.321Z",
+      "expiresAt": "2026-05-23T15:22:24.321Z"
+    },
+    {
+      "id": "story-4",
+      "userId": "user-maya",
+      "username": "maya_sound",
+      "userAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&h=150&fit=crop&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=600&q=80",
+      "createdAt": "2026-05-22T15:22:24.321Z",
+      "expiresAt": "2026-05-23T15:22:24.321Z"
+    }
+  ],
+  "messages": [],
+  "notifications": []
+}
